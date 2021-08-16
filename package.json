@@ -1,4 +1,14 @@
 {
   "name": "give-lambda",
   "version": "1.0.0",
+  "description": "Give site Lambda functions",
+  "license": "BSD-3-Clause",
+  "private": true,
+  "engines": {
+    "node": "> 12.9.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0",
+    "serverless": "^1.44.1"
+  }
 }

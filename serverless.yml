@@ -31,10 +31,11 @@ functions:
     description: Adds Vary for CORS response headers
 
 package:
-  patterns:
-    - '!test/**'
-    - '!**/*.test.js'
-    - '!.deployment/**'
+  exclude:
+    - .git/**
+    - test/**
+    - '**/*.test.js'
+    - .deployment/**
 
 resources:
   Resources:
